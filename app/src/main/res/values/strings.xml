@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">XingRepo</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="no_more_items">No more items to load</string>
+    <string name="no_desc">No Description</string>
+    <string name="alert_title">Take me to</string>
+    <string name="choose_repo">Repository</string>
+    <string name="choose_owner">Owner</string>
+    <string name="choose_cancel">Cancel</string>
+    <string name="error_browser_not_supported">Browser is not supported in your device</string>
+</resources>

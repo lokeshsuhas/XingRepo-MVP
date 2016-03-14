@@ -1,0 +1,75 @@
+* Used following pattern
+	MVP
+	Builder pattern in Apifactory
+* Created content provider for caching [ writing to database of whole returned result] and system will automatically check is that available [ based on pager and page count ] , if not it will fetch from server and insert into the local storage,next time it will load up from the local storage.
+* Used view to update the adapters instead of content observers as when we scale up only model and UI need be updated rest of the stuffs will work
+
+
+Git History
+
+commit d079b8e1c88126e52d441421728790a48740f7bb
+Author: lokesh.pogeyan <lokesh@pogeyan.com>
+Date:   Tue Feb 23 12:19:06 2016 +0530
+
+    Pushed the notes and comments
+
+commit a209ff546467865094eb01244555b0d03e2c6170
+Author: lokesh.pogeyan <lokesh@pogeyan.com>
+Date:   Tue Feb 23 11:58:16 2016 +0530
+
+    Refactored cache provider
+
+commit 0a5e3a66861c399a0b0d56dfff9fa0a288bc7441
+Author: lokesh.pogeyan <lokesh@pogeyan.com>
+Date:   Tue Feb 23 03:42:58 2016 +0530
+
+    pushed the git history
+
+commit 432b8cde23b754f663b5aee97b4b2c06b548724d
+Author: lokesh.pogeyan <lokesh@pogeyan.com>
+Date:   Tue Feb 23 03:36:39 2016 +0530
+
+    pushed the final notes
+
+commit 1f97f0e7bfbc4b4d6ba929044c987e327c951ca5
+Author: lokesh.pogeyan <lokesh@pogeyan.com>
+Date:   Tue Feb 23 03:16:08 2016 +0530
+
+    Cleaned up the code and refactored the db stuffs
+
+commit 54bf0cb7e719a68829c9b76622a6bdb01355aa99
+Author: lokesh.pogeyan <lokesh@pogeyan.com>
+Date:   Tue Feb 23 02:45:51 2016 +0530
+
+    Pushed the cache stuffs
+
+commit 3d44cda1153bf26bc5b55fd61563bbac8d3423a1
+Author: lokesh.pogeyan <lokesh@pogeyan.com>
+Date:   Tue Feb 23 00:58:09 2016 +0530
+
+    Pushed long press and clean ups
+
+commit 89fd1a0b4b449141dfb28686be7d52fb4f040741
+Author: lokesh.pogeyan <lokesh@pogeyan.com>
+Date:   Mon Feb 22 23:39:42 2016 +0530
+
+    Pushed changes without cache stuffs
+
+commit 3f477f76912eb8cc23aa35f1fdb30d7e63571892
+Author: lokesh.pogeyan <lokesh@pogeyan.com>
+Date:   Mon Feb 22 16:27:52 2016 +0530
+
+    Pushed the service without cache stuffs
+
+    Added gson library for json parsing
+
+commit 59c5704b493eb49d3e27fe40529a0be4d07b3a6a
+Author: lokesh.pogeyan <lokesh@pogeyan.com>
+Date:   Mon Feb 22 15:09:09 2016 +0530
+
+    Android app bootstrap
+
+commit bce968f82131ff22fe9860a7466f8c2a0a092eab
+Author: roccobruno81 <rocco.bruno81@gmail.com>
+Date:   Mon Jun 8 10:50:43 2015 +0200
+
